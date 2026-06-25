@@ -6,7 +6,7 @@ if [ "$#" -ne 3 ]; then
     exit 1
 fi
 
-input_file="$1"       # The file to process (output.txt in your case)
+input_file="$1"       # The file to process
 rename_file="$2"      # The file containing REPID mappings (rename.txt)
 output_file="$3"      # The modified output file
 
